@@ -8,7 +8,6 @@ module.exports = {
       watch: false, // vypnuté sledovanie zmien
       env: {
         NODE_ENV: "production",
-        MONGO_URI: "mongodb://admin:secret@mongodb:27017/mydatabase",
       },
     },
   ],

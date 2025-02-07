@@ -5,7 +5,7 @@ require("dotenv").config();
 
 const app = express();
 app.use(express.json());
-
+console.log("MONGO_URI:", process.env.MONGO_URI);
 connectDB();
 
 app.use("/api/items", itemRoutes);
